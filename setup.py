@@ -22,7 +22,7 @@ VERSION = None
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'git+https://github.com/mpld3/mpld3'
+    'mpld3'
 ]
 
 # The rest you shouldn't have to touch too much :)
