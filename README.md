@@ -19,5 +19,7 @@ Run the following:
 
 
 from easy_html_reporting import easy_reporter
+
 er = easy_reporter()
+
 er.run_example()
