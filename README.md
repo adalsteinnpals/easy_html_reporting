@@ -11,3 +11,13 @@ pip install git+https://github.com/mpld3/mpld3
 next you can install easy_html_reporting
 
 pip install git+https://github.com/adalsteinnpals/easy_html_reporting
+
+
+## Example
+
+Run the following: 
+
+
+from easy_html_reporting import easy_reporter
+er = easy_reporter()
+er.run_example()
