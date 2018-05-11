@@ -137,11 +137,39 @@ class easy_reporter():
         rc.add_text('p',"""This package was made to create simple "report-like" html files for
                     for easy integration with pandas and matplotlib with mpld3""")
         rc.add_text('h1','Experiment1')  
-        rc.add_text('p','In this experiment we did a lot of things')
+        rc.add_text('p',"""In this experiment we did a lot of things 
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            """)
         rc.table_from_pandas(pd.DataFrame(np.random.rand(5,5)))
+        rc.add_text('p',"""In this experiment we did a lot of things 
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            """)
         rc.figure(fig)
         rc.header('Experiment2')  
-        rc.string('In this experiment we did a few things')
+        rc.add_text('p',"""In this experiment we did a lot of things 
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            In this experiment we did a lot of things
+                            """)
         rc.figure(fig2)
         rc.save_and_open_html('test_experiment')
             
