@@ -1,0 +1,1 @@
+from easy_html_reporting import easy_reporter
