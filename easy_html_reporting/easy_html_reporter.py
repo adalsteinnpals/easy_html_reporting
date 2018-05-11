@@ -135,7 +135,7 @@ class easy_reporter():
         rc = easy_reporter()   
         rc.headline('EXPERIMENTS')  
         rc.add_text('p',"""This package was made to create simple "report-like" html files for
-                    for easy integration with matplotlib with mpld3""")
+                    for easy integration with pandas and matplotlib with mpld3""")
         rc.add_text('h1','Experiment1')  
         rc.add_text('p','In this experiment we did a lot of things')
         rc.table_from_pandas(pd.DataFrame(np.random.rand(5,5)))
